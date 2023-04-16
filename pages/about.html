@@ -111,6 +111,22 @@ title: Schuyler - About
                 <br>
             {% endif %}
 
+            {% if site.data.about.workshops %}
+                <p>
+                <b><font size="+2">Workshops Taught</font></b>
+                <ul>
+                    {% for workshop in site.data.about.workshops %}
+                        <li> 
+                            {% if workshop.title %}{{ workshop.title }}<br>{% endif %}
+                            {% if workshop.location %}{{ workshop.location }}<br>{% endif %}
+                            {% if workshop.year %}{{ workshop.year }}<br>{% endif %}
+                        </li>
+                        <br>
+                    {% endfor %}
+                </ul>   
+                </p>
+            {% endif %}
+
             {% if site.data.about.personal %}
                 <p> 
                 <b><font size="+2">Personal Interests</font></b>

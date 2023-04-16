@@ -1,20 +1,44 @@
-bio: 'I recently earned a Ph.D. in  <a href="https://www.bcb.iastate.edu/" target="_blank" >Bioinformatics and Computation Biology</a> from <a href="https://www.iastate.edu/" target="_blank" >Iowa State University</a> in Ames, Iowa.
+bio: 'I am a Ph.D. in  <a href="https://www.bcb.iastate.edu/" target="_blank" >Bioinformatics and Computation Biology</a>, with a passion for tools for reproducible research, data workflows, and data engineering.
 <br>
 <br>
-A member of the <a href="http://germslab.org/" target="_blank" >GERMS lab</a>, in the department of <a href="https://www.abe.iastate.edu/" target="_blank" >Agricultural and Biosystems Engineering</a>, our research focuses on environmental microbiomes and metagenomes; predominantly soil, but also water-systems, manure, plant-interactions, and even flower nectar.
+My research focuses heavily on data analysis and building tools and pipelines. I 
+enjoy data exploration and answering questions through data, but equally, I enjoy 
+enabling other researchers to answer their own questions with useful tools. This 
+was the motivation to put together various software packages such as my <a href="https://schuyler-smith.github.io/phylosmith/" target="_blank" >phylosmith</a> R-package, 
+along with others you may find on my GitHub. This is also what inspired me to 
+become an instructor for <a href="https://carpentries.org/" target="_blank" >the Carpentries</a>, 
+where I have enjoyed having the opportunity to share my experience in computational science 
+with other scientists.
 <br>
 <br>
-My research focuses heavily on data analysis and building tools and pipelines for reproducible research. I enjoy data exploration and answering questions through data, but equally, I enjoy enabling other researchers to answer their own questions with useful tools. This was the motivation to put together various software packages such as my <a href="https://schuyler-smith.github.io/phylosmith/" target="_blank" >phylosmith</a> R-package, along with others you may find on my GitHub. This is also what inspired me to become an instructor for <a href="https://carpentries.org/" target="_blank" >the Carpentries</a>, where I have enjoyed having the opportunity to share the skills that I have gained with other scientists.
+Throughout my gradute experiences I have worked on a wide variety of projects. 
+During my M.S. research, I was a member of a maize breeding lab where I produced 
+molecular characterizations of the Texas germplasm and made genomic comparisons 
+between those and traditional Midwestern varieties. After completing my M.S., I 
+moved to a Ph.D. program where I developed a pipeline for identifying SNP markers 
+for autotetraploid species from GBS data, and subsequently for GWAS. This was my 
+first introduction to pipeline-develpment and high-throughput computing. After a 
+year with this research, I knew my passion was not with plant genetics, but 
+bioinformatics. I joined <a href="http://germslab.org/" target="_blank" >GERMS lab</a> where I worked 
+with environmental microbiomes, particularly soil biomes, and fostere my passion 
+for creating tools for research.
 <br>
 <br>
-Throughout my gradute experiences I have worked on a wide variety of projects. During my M.S. research, I was a member of a maize breeding lab where I produced molecular characterizations of the Texas breeding stock and made genomic comparisons between those and traditional Midwestern varieties. After completing my M.S., I moved to a Ph.D. program where I developed a pipeline for identifying SNP markers for autotetraploid species from GBS data, and subsequently for GWAS. This was my first introduction to pipeline-develpment and high-throughput computing. After a year with this research, I knew my passion was not with plant genetics, but bioinformatics. I joined my current graduate program where I have been working with microbiomes, and have found a passion for creating tools for research.
-<br>
-<br>
-My main programming language has always been R, but in recent years I have taken to learning C++ and have really enjoyed it. I also work a lot with BASH scripts and occasionally in Python, but R will always be my first language.
+My main programming language has always been R, but I have also developed packages 
+and pipelines in python, as well as programs in C++. I've done a fair share of work 
+with SQL commands for database querying, and working with groovy for NextFlow 
+scripting. And, of course, shell scripting. Then, for fun, I have played with 
+html/CSS to make this website.
 '
 
 research_interests:
   - Bioinformatics
+  - Pipeline Development
+  - Reproducible Research
+  - Machine Learning
+  - Data Science
+  - Data Visualisation
+  - Data Management
   - Genetics
   - Genomics
   - Microbiomes
@@ -23,12 +47,6 @@ research_interests:
   - GWAS
   - QTL Studies
   - RNA-Seq
-  - Machine Learning
-  - Data Science
-  - Data Visualisation
-  - Data Management
-  - Pipeline Development
-  - Reproducible Research
 
 education:
   - degree: Ph.D., Bioinformatics and Computational Biology
@@ -47,6 +65,10 @@ education:
     year: 
 
 experience:
+  - title: Senior Computational Scientist, Bioinformatics
+    employer: Nutrien
+    location: Champaign, IL
+
   - title: Graduate Research Assistant - Ph.D.
     employer: Genomics and Environmental Research in Microbial Systems Lab
     location: Iowa State University - Ames, Iowa
@@ -77,17 +99,63 @@ experience:
 
 skills:
   - R
-  - C/C++
   - Python
+  - C/C++
   - Shell
-  - HTML
+  - Markdown/HTML/CSS
   - SQL
-  - LaTeX
-  - Markdown
-  - git
-  - Linux
-  - Windows
-  - MacOS
+  - AWS/GCP/Slurm
+  - Nextflow/SnakeMake
+  - Airflow/MetaFlow
+  - CI/CD (git/Jenkins)
+  - Docker/Singularity
+  - Shiny/Dash/Power BI
+  - Latex
+  - Image J
+  - Linux/Windows/MacOS
+
+
+workshops:
+  - title: "Data Carpentry: Genomics"
+    location: Oklahoma State University, online
+    year: 2021
+
+  - title: "Software Carpentry: Shell, Git, R for Reproducible Scientific Analysis"
+    location: University of Idaho, online 
+    year: 2021
+
+  - title: "Data Carpentry: Ecology"
+    location: Merck & Co., online 
+    year: 2020
+
+  - title: "Data Carpentry: Genomics"
+    location: George Washington University, Washington, D.C.
+    year: 2020
+    
+  - title: "Data Carpentry: Ecology"
+    location: Merck & Co., Upper Gwynedd, PA
+    year: 2019
+    
+  - title: Girls in Science Initiaive
+    location: Science Center of Iowa, Des Moines, IA
+    year: 2019
+    
+  - title: Introduction to Data Analysis
+    location: Iowa State University, Ames, IA
+    year: 2017 & 2018
+    
+  - title: Iowa State BCB Data Analysis Language Workshops Introduction to Unix
+    location: Iowa State University, Ames, IA
+    year: 2017 & 2018
+    
+  - title: Iowa State BCB Data Analysis Language Workshops Introduction to Python
+    location: Iowa State University, Ames, IA
+    year: 2017
+    
+  - title: Explorations in Data Analyses for Metagenomic Advances in Microbial Ecology
+    location: Kellog Biological Research Station
+    year: 2017 & 2018
+    
 # 
 personal: '
   In my recreational time I enjoy ice cream, strategy games, sci-fi/fantasy books, coffee, and going to the gym. Pretty much in that order, though, unfortunately, the time spent on each would not reflect that.
