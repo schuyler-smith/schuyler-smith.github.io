@@ -1,35 +1,37 @@
-bio: 'I am a Ph.D. in  <a href="https://www.bcb.iastate.edu/" target="_blank" >Bioinformatics and Computation Biology</a>, with a passion for tools for reproducible research, data workflows, and data engineering.
+bio: 
+  I am a Ph.D. in  <a href="https://www.bcb.iastate.edu/" target="_blank" >Bioinformatics and Computation Biology</a>, 
+  with a passion for tools for reproducible research, data workflows, and data engineering.
 <br>
 <br>
-My research focuses heavily on data analysis and building tools and pipelines. I 
-enjoy data exploration and answering questions through data, but equally, I enjoy 
-enabling other researchers to answer their own questions with useful tools. This 
-was the motivation to put together various software packages such as my <a href="https://schuyler-smith.github.io/phylosmith/" target="_blank" >phylosmith</a> R-package, 
-along with others you may find on my GitHub. This is also what inspired me to 
-become an instructor for <a href="https://carpentries.org/" target="_blank" >the Carpentries</a>, 
-where I have enjoyed having the opportunity to share my experience in computational science 
-with other scientists.
+  My research focuses heavily on data analysis and building tools and pipelines. I 
+  enjoy data exploration and answering questions through data, but equally, I enjoy 
+  enabling other researchers to answer their own questions with useful tools. This 
+  was the motivation to put together various software packages such as my <a href="https://schuyler-smith.github.io/phylosmith/" target="_blank" >phylosmith</a> R-package, 
+  along with others you may find on my GitHub. This is also what inspired me to 
+  become an instructor for <a href="https://carpentries.org/" target="_blank" >the Carpentries</a>, 
+  where I have enjoyed having the opportunity to share my experience in computational science 
+  with other scientists.
 <br>
 <br>
-Throughout my gradute experiences I have worked on a wide variety of projects. 
-During my M.S. research, I was a member of a maize breeding lab where I produced 
-molecular characterizations of the Texas germplasm and made genomic comparisons 
-between those and traditional Midwestern varieties. After completing my M.S., I 
-moved to a Ph.D. program where I developed a pipeline for identifying SNP markers 
-for autotetraploid species from GBS data, and subsequently for GWAS. This was my 
-first introduction to pipeline-develpment and high-throughput computing. After a 
-year with this research, I knew my passion was not with plant genetics, but 
-bioinformatics. I joined <a href="http://germslab.org/" target="_blank" >GERMS lab</a> where I worked 
-with environmental microbiomes, particularly soil biomes, and fostere my passion 
-for creating tools for research.
+  Throughout my gradute experiences I have worked on a wide variety of projects. 
+  During my M.S. research, I was a member of a maize breeding lab where I produced 
+  molecular characterizations of the Texas germplasm and made genomic comparisons 
+  between those and traditional Midwestern varieties. After completing my M.S., I 
+  moved to a Ph.D. program where I developed a pipeline for identifying SNP markers 
+  for autotetraploid species from GBS data, and subsequently for GWAS. This was my 
+  first introduction to pipeline-develpment and high-throughput computing. After a 
+  year with this research, I knew my passion was not with plant genetics, but 
+  bioinformatics. I joined <a href="http://germslab.org/" target="_blank" >GERMS lab</a> where I worked 
+  with environmental microbiomes, particularly soil biomes, and fostere my passion 
+  for creating tools for research.
 <br>
 <br>
-My main programming language has always been R, but I have also developed packages 
-and pipelines in python, as well as programs in C++. I've done a fair share of work 
-with SQL commands for database querying, and working with groovy for NextFlow 
-scripting. And, of course, shell scripting. Then, for fun, I have played with 
-html/CSS to make this website.
-'
+  My main programming language has always been R, but I have also developed packages 
+  and pipelines in python, as well as programs in C++. I've done a fair share of work 
+  with SQL commands for database querying, and working with groovy for NextFlow 
+  scripting. And, of course, shell scripting. Then, for fun, I have played with 
+  html/CSS to make this website.
+
 
 research_interests:
   - Bioinformatics
@@ -157,11 +159,18 @@ workshops:
     year: 2017 & 2018
     
 # 
-personal: '
-  In my recreational time I enjoy ice cream, strategy games, sci-fi/fantasy books, coffee, and going to the gym. Pretty much in that order, though, unfortunately, the time spent on each would not reflect that.
+personal:
+  In my recreational time I enjoy ice cream, strategy games, sci-fi/fantasy books, 
+  coffee, and going to the gym. Pretty much in that order, though, unfortunately, 
+  the time spent on each would not reflect that.
 <br>
 <br>
-  I have also had opportunities for travel in the past few years. I have been fortunate to have been able to to visit various parts of the world. Several trips have been for birding with my father, others for conferences, some just for the experience. I am not much of a photographer, but I do like to document the places I have been. As a practice in HTML, I have built a display of some of my <a href="https://schuyler-smith.github.io/photos">travels</a> with some of my favorite pictures.' 
+  I have also had opportunities for travel in the past few years. I have been 
+  fortunate to have been able to to visit various parts of the world. Several 
+  trips have been for birding with my father, others for conferences, some just 
+  for the experience. I am not much of a photographer, but I do like to document 
+  the places I have been. As a practice in HTML, I have built a display of some 
+  of my <a href="https://schuyler-smith.github.io/photos">travels</a> with some of my favorite pictures.
 
 
 # '
