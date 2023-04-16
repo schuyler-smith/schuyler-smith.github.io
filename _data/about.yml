@@ -1,11 +1,11 @@
 bio: 
-  I am a Ph.D. in  <a href="https://www.bcb.iastate.edu/" target="_blank" >Bioinformatics and Computation Biology</a>, 
+  I am a scientist with a Ph.D. in  <a href="https://www.bcb.iastate.edu/" target="_blank" >Bioinformatics and Computation Biology</a>, 
   with a passion for tools for reproducible research, data workflows, and data engineering.
   <br>
   <br>
   My research focuses heavily on data analysis and building tools and pipelines. I 
   enjoy data exploration and answering questions through data, but equally, I enjoy 
-  enabling other researchers to answer their own questions with useful tools. This 
+  enabling other researchers to answer their own questions with useful code. This 
   was the motivation to put together various software packages such as my <a href="https://schuyler-smith.github.io/phylosmith/" target="_blank" >phylosmith</a> R-package, 
   along with others you may find on my GitHub. This is also what inspired me to 
   become an instructor for <a href="https://carpentries.org/" target="_blank" >the Carpentries</a>, 
@@ -27,10 +27,10 @@ bio:
   <br>
   <br>
   My main programming language has always been R, but I have also developed packages 
-  and pipelines in python, as well as programs in C++. I've done a fair share of work 
+  and pipelines in python, as well as programs in C++, and shell scripting. I've done a fair share of work 
   with SQL commands for database querying, and working with groovy for NextFlow 
-  scripting. And, of course, shell scripting. Then, for fun, I have played with 
-  html/CSS to make this website.
+  scripting. Also, for fun, I have played with 
+  HTML/CSS to make this website.
 
 
 research_interests:
