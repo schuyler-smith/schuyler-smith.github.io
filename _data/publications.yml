@@ -1,0 +1,61 @@
+
+papers:
+  - authors: Schuyler D. Smith, Heffner, E., Murray, S.C.
+    title: Molecular analysis of genetic diversity in a Texas maize breeding program
+    url: https://www.cabdirect.org/cabdirect/abstract/20173230929
+    info: Maydica. 2015
+  - authors: Choi, J., Rieke, E.L., Moorman, T.B., Soupir, M.L., Allen, H.K., Smith, S.D.
+    title: Practical implications of erythromycin resistance gene diversity on surveillance and monitoring of resistance
+    url: https://academic.oup.com/femsec/article/94/4/fiy006/4810543
+    info: FEMS microbiology ecology. 10.1093/femsec/fiy006, January, 2018
+  - authors: Schuyler D. Smith
+    title: "phylosmith: an R-package for reproducible and efficient microbiome analysis with phyloseq-objects"
+    url: https://www.theoj.org/joss-papers/joss.01442/10.21105.joss.01442.pdf
+    info: Journal of Open Source Software. 10.21105/joss.01442, June, 2019
+  - authors: Schuyler D. Smith, Colgan, P., Yang, F., Rieke, E.L., Soupir, M.L., Moorman, T.B., Allen, H.K., Howe, A.
+    title: Investigating the dispersal of antibiotic resistance associated genes from manure application to soil and drainage waters in simulated agricultural farmland systems
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222470
+    info: PLOS One. journal.pone.0222470, September, 2019
+  - authors: Yu, W., Lawrence, N. C., Sooksa-nguan, T., Smith, S.D., Tenesaca, C., Howe, A. C., Hall, S. J.
+    title: Microbial linkages to soil biogeochemical processes in a poorly drained agricultural ecosystem
+    url: https://www.sciencedirect.com/science/article/pii/S0038071721001000?casa_token=t9t8cAbqm6kAAAAA:-o3ou_9A5NuT0vWFOU4_on5AxDyt62tWqvevq0N8eTJXAZzxVJq_-dZxADkC1rZ-pDIQ54V5fA 
+    info: Soil Biology and Biochemistry, 108228. March, 2021
+  - authors: Schuyler D. Smith, Choi, J., Ricker, A., Yang, F., Hinsa-Leasure, S., Soupir, M.,Allen, H., Howe, A.
+    title: "Diversity of Antibiotic Resistance genes and Transfer Elements-Quantitative Monitoring (DARTE-QM): a method for sequencing microbiome functional profiles"
+    url: 
+    info: (In preparation). 2021
+  - authors: Schuyler D. Smith, Howe, A.
+    title: Effects of microbial community-structure on the formation of harmful algal blooms in Iowa lakes
+    url: 
+    info: (In preparation). 2021
+
+posters:
+  - authors: Smith, S.D., Endelman, J.B.
+    title: Genotyping by Sequencing for Autotetraploid Species
+    url: https://schuyler-smith.github.io/posters/icqg_2016
+    info: Presented at the 5th International Conference on Quantitative Genetics. 2016, June 12-17. Madison, Wisconsin. & the 11th Annual National Association of Plant Breeders Meeting. 2016, August 15-18. Raleigh, North Carolina
+  
+  - authors: Smith, S.D., Howe, A
+    title: Examining Antibiotic Resistance Gene (ARG) horizontal transfer and introduction through farmland soil microbiomes as a result of modern farming practices
+    url: https://schuyler-smith.github.io/posters/p3_2017
+    info: "Presented at the 3rd Annual Front Range Computational & Systems Biology Symposium: Microbiome. 2017, June 12-13. Fort Collins, Colorado"
+  
+  - authors: Smith, S.D., Villanueva, P.E., Fukami, T., Howe, A.
+    title: Co-Occurrence Networks Reveal Key OTUs in Flower Nectar Microbiomes Across Dispersal Treatments
+    url: https://schuyler-smith.github.io/posters/isme_2018
+    info: Presented at the 17th ISME. 2018, August 12-17. Leipzig, Germany & the NSF Research Traineeship (NRT) Annual Meeting. 2018, September 27-28. Arlington, Virginia
+  
+  - authors: Smith, S.D.
+    title: "phylosmith: an R-package for reproducible and efficient microbiome analysis with phyloseq-objects"
+    url: https://schuyler-smith.github.io/posters/phylosmith
+    info: Presented at the 27th ISMB/18th ECCB. 2019, July 21-25. Basel, Switzerland
+
+theses:
+  - authors: Schuyler D. Smith
+    title: Molecular Characterization of the Texas Maize Breeding Program
+    url: 
+    info: (M.S. Thesis). Texas A&M University, College Station, Texas, 2015
+  - authors: Schuyler D. Smith
+    title: Methods for investigation of functional genes and community structure of environmental microbiomes
+    url: 
+    info: (Ph.D.). Iowa State University, Ames, Iowa, 2021

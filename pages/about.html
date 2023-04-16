@@ -1,0 +1,137 @@
+---
+permalink: /about
+title: Schuyler - About
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- PAGE TITLE -->
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.config.title }}{% endif %}</title>
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <!-- PAGE ICON -->
+        {% if site.data.config.page_icon %}<link rel="shortcut icon" href="{{ site.data.config.page_icon }}" />{% endif %}
+        <!-- LOAD OPEN SANS FONT -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
+        <!-- LOAD FONTAWESOME ICONS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- LOAD ACADEMIC FONTAWESOME STYLE ICONS -->
+        <link rel="stylesheet" href="/css/academicons/css/academicons.min.css"/>
+        <!-- LOAD LOCAL CSS -->
+        <link rel="stylesheet" href="{{ site.baseurl }}{{ '/css/main.css' }}">
+        <link rel="stylesheet" href="{{ site.baseurl }}{{ '/css/mobile.css' }}">
+    </head>
+    <body class="subpage">
+        <!-- BACKGROUND IMAGE -->
+        <img src="{{ site.data.config.background }}" id="background">
+        <!-- NAVIGATION BAR -->
+        <div id="navmenu">
+            <ul>
+                {% for link in site.data.config.pages %}
+                    {% assign class = nil %}
+                    {% if page.url == link.url %}
+                        <li><a class="active">{{ link.title }}</a></li>
+                    {% else %}
+                        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- END NAVIGATION BAR -->
+
+<!--    PAGE     -->
+
+        <div class="content" >
+        <div class="about-text">
+            {% if site.data.about.bio %}
+                <p>
+                    {{site.data.about.bio}}
+                </p>
+                <br>
+            {% endif %}
+
+            {% if site.data.about.research_interests %}
+                <p>
+                <b><font size="+2">Reasearch Interests</font></b>
+                <ul class="about-list">
+                    {% for interest in site.data.about.research_interests %}
+                        <li> {{ interest }} </li>
+                    {% endfor %}
+                </ul>   
+                </p>
+                <br>
+            {% endif %}
+
+            {% if site.data.about.education %}
+                <p>
+                <b><font size="+2">Education</font></b>
+                <ul>
+                    {% for school in site.data.about.education %}
+                        <li> 
+                            {% if school.degree %}{{ school.degree }}
+                                {% if school.year %} - {{ school.year }}{% endif %}
+                            <br>
+                            {% endif %}
+                            {% if school.department %}{{ school.department }}<br>{% endif %}
+                            {% if school.university %}{{ school.university }}<br>{% endif %}
+                        </li>
+                        <br>
+                    {% endfor %}
+                </ul>   
+                </p>
+            {% endif %}
+
+            {% if site.data.about.experience %}
+                <p>
+                <b><font size="+2">Experience</font></b>
+                <ul>
+                    {% for job in site.data.about.experience %}
+                        <li> 
+                            {% if job.title %}{{ job.title }}<br>{% endif %}
+                            {% if job.employer %}{{ job.employer }}<br>{% endif %}
+                            {% if job.location %}{{ job.location }}<br>{% endif %}
+                        </li>
+                        <br>
+                    {% endfor %}
+                </ul>   
+                </p>
+            {% endif %}
+
+            {% if site.data.about.skills %}
+                <p>
+                <b><font size="+2">Skills</font></b>
+                <ul class = "about-list">
+                    {% for skill in site.data.about.skills %}
+                        <li> {{ skill }} </li>
+                    {% endfor %}
+                </ul>   
+                </p>
+                <br>
+            {% endif %}
+
+            {% if site.data.about.personal %}
+                <p> 
+                <b><font size="+2">Personal Interests</font></b>
+                <br>
+                <br>
+                    {{site.data.about.personal}}
+                </p>
+            {% endif %}
+        </div>
+        </div>
+
+<!--         -->
+
+        <!-- MEDIA LIST -->
+        <div id="medialist-page">
+            <ul>
+                {% for link in site.data.media %}
+                    <li><a class="{{ link.icon }}" href="{{ link.url }}" target="_blank" ><span class="description-page">{{ link.title }}</span></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- END MEDIA LIST -->
+</body>
+</html>

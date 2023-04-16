@@ -1,0 +1,89 @@
+#navmenu {
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0);
+   position: fixed;
+   z-index: 999;
+   clear: left;
+}
+#navmenu ul {
+   margin: auto;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0);
+}
+#navmenu li {
+  display: inline-block;
+}
+#navmenu a {
+   display:block;
+   margin:0 0 0 -5px;
+   padding:5px 15px;
+   background:#ddd;
+   color:#000;
+   text-decoration: none;
+   font-weight:bold;
+}
+#navmenu a:hover {
+   background:#369;
+   color:#fff;
+}
+#navmenu a.active,
+#navmenu a.active:hover {
+   color:#fff;
+   background:#000;
+   
+}
+#navmenu a:hover:not(.active) {
+   background:#369;
+   color:#fff;
+}
+
+/**/
+@media (max-width: 450px) {
+
+#navmenu {
+   float: middle;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0);
+   position: relative;
+}
+#navmenu ul {
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   position: relative;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0);
+}
+#navmenu li {
+   display: block;
+   float: left;
+   position: relative;
+   background-color: #333;
+   width: 33.0%;
+   font-family: Helvetica;
+}
+#navmenu a {
+   display:block;
+   padding:5px 5px;
+   background:#ddd;
+   color:#000;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+#navmenu a:hover {
+   background:#369;
+   color:#fff;
+}
+#navmenu a.active,
+#navmenu a.active:hover {
+   color:#fff;
+   background:#000;
+   font-weight:bold;
+}
+#navmenu a:hover:not(.active) {
+   background:#369;
+   color:#fff;
+}
+}

@@ -1,0 +1,28 @@
+# Site settings
+title: Schuyler
+page_icon: https://github.com/schuyler-smith.png
+
+avatar: https://github.com/schuyler-smith.png
+avatar_url: https://github.com/Schuyler-Smith
+
+background: https://github.com/schuyler-smith/photos/blob/main/gallery/morocco/43.jpg?raw=true
+
+name: Schuyler D. Smith
+description: Ph.D. - Bioinformatics and Computational Biology
+description_url: https://www.bcb.iastate.edu/people/schuyler-smith
+
+cv: https://github.com/schuyler-smith/CV/raw/master/Smith_Schuyler_CV.pdf
+
+pages:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Publications
+    url: /publications
+  - title: Research
+    url: /research
+  - title: Software
+    url: /software
+  - title: CV
+    url: /cv

@@ -1,0 +1,100 @@
+bio: 'I recently earned a Ph.D. in  <a href="https://www.bcb.iastate.edu/" target="_blank" >Bioinformatics and Computation Biology</a> from <a href="https://www.iastate.edu/" target="_blank" >Iowa State University</a> in Ames, Iowa.
+<br>
+<br>
+A member of the <a href="http://germslab.org/" target="_blank" >GERMS lab</a>, in the department of <a href="https://www.abe.iastate.edu/" target="_blank" >Agricultural and Biosystems Engineering</a>, our research focuses on environmental microbiomes and metagenomes; predominantly soil, but also water-systems, manure, plant-interactions, and even flower nectar.
+<br>
+<br>
+My research focuses heavily on data analysis and building tools and pipelines for reproducible research. I enjoy data exploration and answering questions through data, but equally, I enjoy enabling other researchers to answer their own questions with useful tools. This was the motivation to put together various software packages such as my <a href="https://schuyler-smith.github.io/phylosmith/" target="_blank" >phylosmith</a> R-package, along with others you may find on my GitHub. This is also what inspired me to become an instructor for <a href="https://carpentries.org/" target="_blank" >the Carpentries</a>, where I have enjoyed having the opportunity to share the skills that I have gained with other scientists.
+<br>
+<br>
+Throughout my gradute experiences I have worked on a wide variety of projects. During my M.S. research, I was a member of a maize breeding lab where I produced molecular characterizations of the Texas breeding stock and made genomic comparisons between those and traditional Midwestern varieties. After completing my M.S., I moved to a Ph.D. program where I developed a pipeline for identifying SNP markers for autotetraploid species from GBS data, and subsequently for GWAS. This was my first introduction to pipeline-develpment and high-throughput computing. After a year with this research, I knew my passion was not with plant genetics, but bioinformatics. I joined my current graduate program where I have been working with microbiomes, and have found a passion for creating tools for research.
+<br>
+<br>
+My main programming language has always been R, but in recent years I have taken to learning C++ and have really enjoyed it. I also work a lot with BASH scripts and occasionally in Python, but R will always be my first language.
+'
+
+research_interests:
+  - Bioinformatics
+  - Genetics
+  - Genomics
+  - Microbiomes
+  - Metagenomics
+  - Quantitaitve Genetics
+  - GWAS
+  - QTL Studies
+  - RNA-Seq
+  - Machine Learning
+  - Data Science
+  - Data Visualisation
+  - Data Management
+  - Pipeline Development
+  - Reproducible Research
+
+education:
+  - degree: Ph.D., Bioinformatics and Computational Biology
+    department: Department of Agricultural and Biosystems Engineering
+    university: Iowa State University - Ames, Iowa
+    year:
+    
+  - degree: M.S., Quantitative Genetics
+    department: Department of Soil and Crop Sciences
+    university: Texas A&M University - College Station, Texas
+    year: 
+
+  - degree: B.S., Genetics
+    department: 
+    university: Iowa State University - Ames, Iowa
+    year: 
+
+experience:
+  - title: Graduate Research Assistant - Ph.D.
+    employer: Genomics and Environmental Research in Microbial Systems Lab
+    location: Iowa State University - Ames, Iowa
+
+  - title: Graduate Research Assistant - Ph.D.
+    employer: Potato Breeding and Genetics Laboratory
+    location: University of Wisconsin-Madison, Madison, Wisconsin
+
+  - title: Biological Science Technician - Internship
+    employer: "U.S. Arid Land Agricultural Research Center : USDA-ARS"
+    location: Maricopa, Arizona
+
+  - title: Graduate Research Assistant - M.S.
+    employer: Maize Breeding and Genetics Program
+    location: Texas A&M University, College Station, Texas
+
+  - title: Maize Breeding Intern
+    employer: Monsanto Company
+    location: Huxley Research Station, Huxley, Iowa
+
+  - title: Maize Product Trait Development Intern - 6 month
+    employer: DuPont Pioneer
+    location: Willmar Research Station, Willmar, Minnesota
+
+  - title: Undergraduate Research Assistant
+    employer: "Soybean Genomics Laboratory : USDA-ARS"
+    location: Ames, Iowa
+
+skills:
+  - R
+  - C/C++
+  - Python
+  - Shell
+  - HTML
+  - SQL
+  - LaTeX
+  - Markdown
+  - git
+  - Linux
+  - Windows
+  - MacOS
+# 
+personal: '
+  In my recreational time I enjoy ice cream, strategy games, sci-fi/fantasy books, coffee, and going to the gym. Pretty much in that order, though, unfortunately, the time spent on each would not reflect that.
+<br>
+<br>
+  I have also had opportunities for travel in the past few years. I have been fortunate to have been able to to visit various parts of the world. Several trips have been for birding with my father, others for conferences, some just for the experience. I am not much of a photographer, but I do like to document the places I have been. As a practice in HTML, I have built a display of some of my <a href="https://schuyler-smith.github.io/photos">travels</a> with some of my favorite pictures.' 
+
+
+# '
+# # 

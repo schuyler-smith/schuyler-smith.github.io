@@ -1,0 +1,81 @@
+---
+permalink: /software
+title: Schuyler - Software
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- PAGE TITLE -->
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.config.title }}{% endif %}</title>
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <!-- PAGE ICON -->
+        {% if site.data.config.page_icon %}<link rel="shortcut icon" href="{{ site.data.config.page_icon }}" />{% endif %}
+        <!-- LOAD OPEN SANS FONT -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
+        <!-- LOAD FONTAWESOME ICONS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- LOAD ACADEMIC FONTAWESOME STYLE ICONS -->
+        <link rel="stylesheet" href="/css/academicons/css/academicons.min.css"/>
+        <!-- LOAD LOCAL CSS -->
+        <link rel="stylesheet" href="{{ site.baseurl }}{{ '/css/main.css' }}">
+        <link rel="stylesheet" href="{{ site.baseurl }}{{ '/css/mobile.css' }}">
+    </head>
+    <body class="subpage">
+        <!-- BACKGROUND IMAGE -->
+        <img src="{{ site.data.config.background }}" id="background">
+        <!-- NAVIGATION BAR -->
+        <div id="navmenu">
+            <ul>
+                {% for link in site.data.config.pages %}
+                    {% assign class = nil %}
+                    {% if page.url == link.url %}
+                        <li><a class="active">{{ link.title }}</a></li>
+                    {% else %}
+                        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- END NAVIGATION BAR -->
+        
+<!--    PAGE     -->
+
+        <div class="publications" >
+        <div id="sw">
+        <br>
+            <ul>
+                {% for program in site.data.software %}
+                    <li><font size="+2"><b><a href="{{ program.url }}" target="_blank">{{ program.title }}</a></b></font><br><br>
+                    <font size="-1">{{ program.info }}
+                    {% if program.install %}
+                        <br><br>
+                        Installation:<br>
+                        <code>{{ program.install }}</code>
+                    {% endif %}
+                    </font>
+                    {% if program.additional %}
+                        <br><br>
+                        <font size="-1">{{ program.additional }}</font>
+                    {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        </div>
+
+<!--         -->
+
+        <!-- MEDIA LIST -->
+        <div id="medialist-page">
+            <ul>
+                {% for link in site.data.media %}
+                    <li><a class="{{ link.icon }}" href="{{ link.url }}" target="_blank" ><span class="description-page">{{ link.title }}</span></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- END MEDIA LIST -->
+</body>
+</html>

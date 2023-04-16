@@ -1,0 +1,43 @@
+
+
+- title: phylosmith
+  url: https://schuyler-smith.github.io/phylosmith/
+  info: 'An R-Package hosted on <a href="https://github.com/schuyler-smith/phylosmith/" target="_blank">Github</a>. The package contains functions for reproducible and efficient microbiome analysis with phyloseq-objects. Functions include data-wrangling, graphing, and computational processes designed to make complex R coding into simple one-line functions by exploiting the data-standard of phyloseq, and the redundancies of microbiome datasets.'
+  install: remotes::install_github('schuyler-smith/phylosmith')
+  additional: 'A more detailed set of installation instructions can be found <a href="https://github.com/schuyler-smith/phylosmith#installation" target="_blank">here</a>.'
+
+- title: ssBLAST
+  url: https://github.com/schuyler-smith/ssBLAST
+  info: 'An R-Package hosted on <a href="https://github.com/schuyler-smith/ssBLAST" target="_blank">Github</a>. The package contains functions for working with BLAST outputs and FATA/FASTQ files. All functions are written in c++ for fast and efficient handling of large files. The functions are written to handle both zipped and unzipped versions of sequencing files. Functions include extraction of read names from FATA files, filter/process BLAST outputs, write new FASTA/FASTQ files containing reads that aligned or did not align, and dereplicating sequences.'
+  install: remotes::install_github('schuyler-smith/ssBLAST')
+  additional: ''
+
+- title: simple.dada
+  url: https://github.com/schuyler-smith/simple.dada
+  info: 'An R-Package hosted on <a href="https://github.com/schuyler-smith/simple.dada" target="_blank">Github</a>. The package contains functions for simplifying the DADA2 pipeline. The functions try to use read quality scores to intuitively decide paramters of the DADA2 functions. The idea is to provide a single line command for processing 16S rRNA sequencing data. The best approach is to run each step of DADA2 individually, to control the decision process. This package was made mostly for labmates to use on datasets that I knew had high-quality reads.'
+  install: remotes::install_github('schuyler-smith/simple.dada')
+  additional: ''
+
+- title: schuylR
+  url: https://github.com/schuyler-smith/schuylR
+  info: 'An R-Package hosted on <a href="https://github.com/schuyler-smith/schuylR" target="_blank">Github</a>. This package has no focus, it simply contains functions that I repeatedly find useful.'
+  install: remotes::install_github('schuyler-smith/schuylR')
+  additional: ''
+
+- title: genome_tools
+  url: https://github.com/schuyler-smith/genome_tools
+  info: 'An R-Package hosted on <a href="https://github.com/schuyler-smith/genome_tools" target="_blank">Github</a>. The package contains functions for various operations for working with genomic data. Many of the functions are not exported from the package, mostly stored in the repository.'
+  install: remotes::install_github('schuyler-smith/genome_tools')
+  additional: ''
+
+- title: linux_box_sync
+  url: https://github.com/schuyler-smith/linux_box_sync
+  info: 'A BASH program hosted on <a href="https://github.com/schuyler-smith/linux_box_sync" target="_blank">Github</a>. The program is written sync a local Box directory with the cloud. I wrote this because collaborators wanted to keep all of the project files on Box, but there is no Box app for Linux. This functions makes it simple to use the Box API to copy files to and from the cloud.'
+  install: clone the repo or download/copy the <code>box_sync.sh</code> file. the shell script should run as-is.
+  additional: 'A more detailed set of installation instructions can be found <a href="https://github.com/schuyler-smith/linux_box_sync#usage" target="_blank">here</a>.'
+
+- title: hpcc_R_setup
+  url: https://github.com/schuyler-smith/hpcc_R_setup
+  info: 'A BASH program hosted on <a href="https://github.com/schuyler-smith/hpcc_R_setup" target="_blank">Github</a>. The program is written to setup R on the MSU-HPCC. Setting up the R environment and using locally installed packages is non-intuitive in the HPCC system. I wrote this program to make it easy for labmates to get their R setup and use the shared package folder that I maintained.'
+  install: 
+  additional: 'Instructions can be found <a href="https://github.com/schuyler-smith/hpcc_R_setup#setup-r" target="_blank">here</a>.'
